@@ -22,7 +22,7 @@ export default function AboutPage() {
 
           {/* Introduction */}
           <div className="text-center md:text-left">
-            <h2 className="text-2xl font-semibold mb-4">Hi, I'm Tomiwa Ogunleye</h2>
+            <h2 className="text-2xl font-semibold mb-4">Hi, I&#39;m Tomiwa Ogunleye</h2>
             <p className="text-gray-700 mb-4">
             I am a highly motivated and detail-oriented Software Engineer with a Bachelor of Science in Computer Science from the University of Regina. My expertise lies in developing scalable, maintainable, and reliable code, with a strong commitment to continuous learning and applying software engineering best practices. I thrive in collaborative environments and take pride in delivering high-quality software solutions that drive innovation and efficiency.
 
@@ -31,7 +31,7 @@ With hands-on experience in full-stack development, I have designed and implemen
 I am passionate about solving complex problems, improving user experiences, and contributing to innovative technology solutions. Whether working independently or as part of a team, I bring a positive attitude, strong initiative, and a dedication to excellence in every project I undertake..
             </p>
             <p className="text-gray-700">
-              When I'm not working, you can find me [Your Hobbies]. Feel free to reach out if you'd like to collaborate or just say hi!
+              When I&#39;m not working, you can usually fine me reading a book or practicing my photography. Feel free to reach out if you&#39;d like to collaborate or just say hi!
             </p>
           </div>
         </div>

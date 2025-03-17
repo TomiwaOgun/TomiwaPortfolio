@@ -23,7 +23,7 @@ export default function Home() {
           <div className="text-center md:text-left">
             <h1 className="text-4xl font-bold mb-4">Software Developer | Transforming Ideas into High-Quality Code</h1>
             <p className="text-lg mb-6">
-              Hi, I'm Tomiwa Ogunleye, a highly motivated and detail-oriented Software Developer with a Bachelor of Science in Computer Science from the University of Regina. Proven expertise in developing scalable, maintainable, and reliable code, with a strong commitment to continuous learning and applying software engineering best practices..
+              Hi, I&#39;m Tomiwa Ogunleye, a highly motivated and detail-oriented Software Developer with a Bachelor of Science in Computer Science from the University of Regina. Proven expertise in developing scalable, maintainable, and reliable code, with a strong commitment to continuous learning and applying software engineering best practices..
             </p>
             <Link
               href="/projects"
