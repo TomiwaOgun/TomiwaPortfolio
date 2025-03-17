@@ -31,7 +31,7 @@ With hands-on experience in full-stack development, I have designed and implemen
 I am passionate about solving complex problems, improving user experiences, and contributing to innovative technology solutions. Whether working independently or as part of a team, I bring a positive attitude, strong initiative, and a dedication to excellence in every project I undertake..
             </p>
             <p className="text-gray-700">
-              When I&#39;m not working, you can usually fine me reading a book or practicing my photography. Feel free to reach out if you&#39;d like to collaborate or just say hi!
+              When I&#39;m not working, you can usually find me reading a book or practicing my photography. Feel free to reach out if you&#39;d like to collaborate or just say hi!
             </p>
           </div>
         </div>
