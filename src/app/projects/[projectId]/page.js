@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import { notFound } from 'next/navigation';
+import { useState } from 'react';
 
 
 // Example project data (replace with your data fetching logic)
@@ -10,7 +11,7 @@ const projects = {
   project1: {
     name: 'Budget Garden',
     description: 'A Chrome extension to help users track spending and manage budgets effectively.',
-    images: ['/project1/BudgetGarden.png'],
+    images: ['/project1/BudgetGarden.png','/project1/leafIcon-128.png'],
     details: `
 ### Budget Garden
 Budget Garden is a Chrome extension designed to help users track their spending and manage their budgets effectively.
@@ -319,18 +320,13 @@ This project combines mathematical rigor with practical application, providing a
 
 
 export default async function ProjectPage({ params }) {
-    if (!params) {
-        return notFound();
-      }
-    
-      const { projectId } = await params; // ✅ Await params
-    
-      if (!projectId || !projects[projectId]) {
-        return notFound();
-      }
-    
-      const project = projects[projectId];
+  const { projectId } = await params;
 
+  if (!projectId || !projects[projectId]) {
+    notFound();
+  }
+
+  const project = projects[projectId];
   return (
     <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
@@ -343,12 +339,12 @@ export default async function ProjectPage({ params }) {
         {/* Images Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
           {project.images.map((image, index) => (
-            <div key={index} className="relative h-64">
+            <div key={index} className="relative h-100 ">
               <Image
                 src={image}
                 alt={`Project Image ${index + 1}`}
                 fill
-                className="rounded-lg object-cover"
+                className="rounded-lg object-contain"
                 unoptimized // Disable Next.js image optimization
               />
             </div>

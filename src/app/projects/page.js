@@ -33,7 +33,7 @@ const projects = [
 export default function ProjectsPage() {
   return (
     <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl  mx-auto">
         {/* Page Title */}
         <h1 className="text-4xl font-bold text-center mb-8">My Projects</h1>
 
@@ -43,16 +43,16 @@ export default function ProjectsPage() {
             <Link
               key={project.id}
               href={`/projects/${project.id}`} // Link to the individual project page
-              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
+              className="bg-blue-200 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
             >
               {/* Project Image */}
-              <div className="relative h-48">
+              <div className="relative">
                 <Image
                   src={project.image}
                   alt={project.name}
                   fill
                   className="object-cover"
-                  unoptimized // Disable Next.js image optimization for static export
+                  unoptimized 
                 />
               </div>
 

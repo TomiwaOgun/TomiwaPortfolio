@@ -15,8 +15,8 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-gray-100 shadow-sm py-4">
-      <div className="container mx-auto flex items-center justify-between px-4">
+    <header className="bg-blue-500 shadow-sm py-4">
+      <div className="container mx-auto flex items-center justify-between bg-blue-500 px-4">
         {/* Logo */}
         <Link href="/" aria-label="Home">
           <Image
