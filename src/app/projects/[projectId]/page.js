@@ -63,7 +63,7 @@ This project combines mathematical rigor with practical application, providing a
   project2: {
     name: 'Verse Finder',
     description: 'A Chrome extension designed to help users find relevant Bible verses for any situation',
-    images: ['/project2/VerseFinder.png'],
+    images: ['/project2/VerseFinder.png', '/project2/bibleIcon-32.png'],
     details: `
 ### Verse Finder Chrome Extension
 
@@ -175,7 +175,7 @@ Verse Finder is a project that combines technology and faith to help users conne
   project3: {
     name: 'Soundio',
     description: 'Soundio is a full-stack music streaming platform inspired by popular services like Spotify and SoundCloud.',
-    images: ['/project3/Signup-Graphic.png','/project3/Soundio ERD.png' ],
+    images: ['/project3/Signup-Graphic.png','/project3/Soundio ERD.png', '/project3/Logo.png' ],
     details: `
 # Soundio Music Media Application
 
