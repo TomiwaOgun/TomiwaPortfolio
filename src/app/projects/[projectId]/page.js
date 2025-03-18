@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import { notFound } from 'next/navigation';
-import { useState } from 'react';
+
 
 
 // Example project data (replace with your data fetching logic)
