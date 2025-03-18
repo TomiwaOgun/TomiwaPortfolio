@@ -11,7 +11,7 @@ export default function AboutPage() {
         {/* Profile Picture and Introduction */}
         <div className="flex flex-col md:flex-row items-center gap-8">
           {/* Profile Picture */}
-          <div className="w-200 h-60 relative">
+          <div className="w-32 h-32 md:w-100 md:h-62 relative">
             <Image
               src="/profile.jpg" // Path to your profile picture in the public folder
               alt="Profile Picture"
