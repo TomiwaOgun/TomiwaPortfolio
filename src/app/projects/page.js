@@ -27,6 +27,12 @@ const projects = [
     description: 'This C++ program is designed to perform edge detection and line detection in images using a combination of the Sobel and Laplacian operators, followed by the Hough Transform.',
     image: '/project4/building.png', // Path to the image in the public folder
   },
+  {
+    id: 'project5',
+    name: 'Clinical Data Analysis and Visualization',
+    description: 'This R project analyzes clinical trial data by performing ANOVA and post-hoc tests to compare recovery times across treatment groups, supported by visualizations and report generation.',
+    image: '/project5/age_histogram.png', // Path to the image in the public folder
+  },
   // Add more projects as needed
 ];
 
