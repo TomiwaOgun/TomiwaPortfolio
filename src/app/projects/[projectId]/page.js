@@ -6,7 +6,7 @@ import { notFound } from 'next/navigation';
 
 
 
-// Example project data (replace with your data fetching logic)
+
 const projects = {
   project1: {
     name: 'Budget Garden',
@@ -315,7 +315,84 @@ This project demonstrates my ability to implement advanced image processing tech
 
 This project combines mathematical rigor with practical application, providing a powerful tool for image analysis and processing.  
   `,
-  },
+  }, 
+  project5: {
+    name: 'Clinical Data Analysis and Visualization',
+    description: 'This R project analyzes clinical trial data by performing ANOVA and post-hoc tests to compare recovery times across treatment groups, supported by visualizations and report generation.',
+    images: ['/project5/blood_pressure_boxplot.png', '/project5/adverse_event_barplot.png', '/project5/age_histogram.png'],
+    details: `
+# Clinical Data Analysis and Visualization
+
+This **R project** is designed to analyze and visualize clinical trial data, focusing on comparing patient recovery times across multiple treatment groups using statistical methods such as **ANOVA** and **Tukey's HSD** post-hoc testing. The project includes data cleaning, statistical analysis, visualization with **ggplot2**, and generation of result summaries for reporting and portfolio presentation.
+
+---
+
+## Key Features
+
+1. **Data Cleaning and Validation**  
+   - Handled missing values and corrected inconsistencies to prepare a clean dataset for analysis.
+
+2. **Statistical Analysis**  
+   - Performed **ANOVA** to assess differences in recovery days between multiple treatment groups.  
+   - Conducted **Tukey's HSD** post-hoc tests to identify specific group differences after significant ANOVA results.
+
+3. **Data Visualization**  
+   - Created clear visualizations including boxplots, bar charts, and histograms to explore and present key trends.
+
+4. **Result Summarization**  
+   - Automated generation of CSV summary files for ANOVA and post-hoc results to support reproducibility and reporting.
+
+---
+
+## Technologies Used
+
+- **Programming Language**: R  
+- **Libraries**:  
+  - ggplot2 for data visualization  
+  - dplyr for data manipulation  
+  - stats for ANOVA and post-hoc testing  
+- **File Handling**: Exporting results to CSV for documentation  
+
+---
+
+## What I Learned
+
+- Conducting rigorous statistical testing (ANOVA, Tukey's HSD) in a real-world clinical context.  
+- Cleaning and preprocessing datasets for reliable analysis.  
+- Creating publication-ready graphs with **ggplot2**.  
+- Automating analysis pipelines to improve workflow efficiency.  
+- Interpreting statistical results to draw meaningful, actionable insights.
+
+---
+
+## Why It Matters
+
+This project demonstrates my ability to combine data science skills, statistical reasoning, and visualization to analyze healthcare data. It highlights my capability to produce clean, interpretable results that could influence clinical decision-making or further research.
+
+---
+
+## How It Works
+
+1. **Data Preparation**:  
+   - Loaded and cleaned clinical trial data, ensuring accuracy for analysis.
+
+2. **ANOVA Analysis**:  
+   - Compared mean recovery days across three groups (Control, Treatment 1, Treatment 2) using **one-way ANOVA**.
+
+3. **Post-Hoc Testing**:  
+   - Applied **Tukey's HSD** to determine which treatment groups significantly differed in recovery times.
+
+4. **Visualization and Reporting**:  
+   - Built informative plots (boxplots, bar charts) and exported result summaries for review and sharing.
+
+---
+
+**GitHub Repository**: [Clinical Data Analysis Project on GitHub](https://github.com/TomiwaOgun/clinical_trial_simulation)
+
+This project combines statistical rigor with effective communication, showcasing my ability to transform raw clinical data into clear, actionable insights.
+  `,
+},
+
 };
 
 
